@@ -1,0 +1,76 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width: 55%;
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+header nav{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    gap: 24px;
+}
+.aboltMe{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.imgPerfil{
+    width: 200px;
+    border-radius: 50%;
+}
+.textAboltMe{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.contates{
+    display: flex;
+    gap: 36px;
+}
+.contates a{
+    border: 1px solid black;
+    padding: 2px 12px 2px 12px;
+    font-size: 17px;
+}
+#curriculo:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+#github:hover{
+    background-color: rgb(1, 4, 9);
+    color: white;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+#linkedin:hover{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.linha{
+    width: 50%;
+    height: 5px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
