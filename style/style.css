@@ -81,7 +81,7 @@ header nav{
     margin: auto;
     display: flex;
     align-items: center;
-    /*gap: 48px;*/
+    gap: 12px;
 
 }
 
@@ -90,6 +90,9 @@ header nav{
     text-align: justify;
 }
 
+.api-auction > p > a{
+    text-align: center;
+}
 .api-auction > img{
     width: 50%;
     display: flex;
@@ -100,4 +103,5 @@ header nav{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid black;
 }
