@@ -70,7 +70,34 @@ header nav{
     height: 5px;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.api-auction{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /*gap: 48px;*/
+
+}
+
+.api-auction > p{
+    width: 50%;
+    text-align: justify;
+}
+
+.api-auction > img{
+    width: 50%;
+    display: flex;
+}
+.api-auction > img:hover{
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
